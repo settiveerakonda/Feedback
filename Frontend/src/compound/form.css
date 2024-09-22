@@ -1,0 +1,80 @@
+/* styles.css */
+/* Style the main container */
+div {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0a0101;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+  }
+  h4 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+  }
+  p {
+    font-size: 16px;
+    color: white;
+  }
+  
+  form {
+    margin-top: 20px;
+    color: white;
+
+  }
+  
+  /* Style list items */
+  ol li {
+    margin-bottom: 20px;
+  }
+  
+  /* Style labels */
+  label {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  /* Style select and textarea */
+  select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style radio button labels */
+  .button-options label {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  /* Style submit button */
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  /* Add hover effect to submit button */
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  #n{
+    width:150px;
+    margin-left: 10%;
+  }
